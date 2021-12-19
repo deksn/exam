@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pickwick Tea</title>
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header class= "header">
+      <div class="logo"><a href="index.html"><img src="images/logo.png" alt="Pickwick logo" class="logo"></a></div>
+      <div class="topnav" id="myTopnav">
+        <a href="contact.html">CONTACT US</a>
+        <a href="about.html">ABOUT PICKWICK</a>
+        <a href="recipes.html">RECIPES</a>
+        <div class="dropdown">
+          <button class="dropbtn"><a href="teas.html">OUR TEAS</a></button>
+          <div class="dropdown-content">
+            <a href="teas.html#GREEN">Green Tea</a>
+            <a href="teas.html#HERBAL">Herbal Tea</a>
+            <a href="teas.html#FRUIT">Fruit Tea</a>
+          </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+    </header>
+    <div class="row">
+        <section class="contact-section-background"></section>
+      <section class="text-box">
+        <div class="contact-box"> <h2>We're here for You.</h2> </div>
+      </section>
+      <div class="faq"> <h1>FREQUENTLY ASKED QUESTIONS</h1></div>
+        <button class="accordion">Why are other ingredients added to Pickwick teas?</button>
+        <div class="panel">
+            <p>To make Pickwick teas even tastier, we add a few more ingredients to the blends.<br> 
+                These ingredients do not have a negative impact on the beneficial effects of the drink. <br> 
+                In some teas, the ingredients compensate for their bitterness; by adding spices, Rooibos tea achieves its rich taste.</p>
+        </div>
+        <button class="accordion">Sometimes tea has a bitter taste. Why?</button>
+        <div class="panel">
+            <p>The longer the tea is left to brew, the bitter it is. The tea should not be brewed for more than five minutes. Bitterness can be compensated by adding a<br> little milk or squeezed watermelon water. The hardness of the water can also affect the taste of the tea. If you let the water boil for five minutes before<br> making tea, the calcium and magnesium salt particles settle on the walls of the kettle and the water softens, so that the taste of the tea remains unharmed.</p>
+        </div>
+        <button class="accordion">Are any artificial (synthetic) flavors added to the tea blends?</button>
+        <div class="panel">
+            <p>No. None of our tea blends contain artificial (synthetic) aromas.</p>
+        </div>        
+        <button class="accordion">What other substances does tea contain?</button>
+        <div class="panel">
+            <p>Teas contain several minerals. One of them is fluoride, which helps maintain strong teeth. Tea is also a major source of flavonoids,<br> a class of antioxidants.</p>
+        </div>
+        <button class="accordion">What is the best way to store tea?</button>
+        <div class="panel">
+            <p>The original packaging keeps the aroma of the tea unchanged for about two years. After this period, its color and scent may change and it may lose its<br> aroma. Once opened, it is important to keep the tea packaging in a cool, dry and dark place, away from aromatic foods.</p>
+        </div>
+        <button class="accordion">Why is a different selection of products available in different countries?</button>
+        <div class="panel">
+            <p>Because tastes vary by country, we offer different choices for each country. All Pickwick flavors and products are tailored to <br> the specific needs of consumers in each country.</p>
+        </div>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+            </script>
+    <div class= "box"></div> 
+    <div class="faq"> <h1>Contact us</h1></div>
+    <div class="container">
+      <div class="contact-section">
+        <div class="contact-text">
+          <p>Ørestads Boulevard 110,<br> DK-2300 København S, <br>Denmark.<br><br> 80 88 35 21</p>
+        </div>
+        <div class="email"><a class="email-btn" href="https://contactus.jdecoffee.com/pickwick-denmark">EMAIL US</a></div>
+      </div>
+    </div>
+  <!-- ------------------------------footer----------------------- -->
+  <footer class="footer">
+    <div class="Contact-us">
+      <img class="footer-logo" src="images/logo.png" alt="Pickwick logo">
+      <div class="Contact-us-text" id="Contact-us">
+        <div>
+          <h1>Jacobs Douwe Egberts DK ApS</h1>
+          <h1>Tel. customer service 80 88 35 21</h1>
+          <h1> CVR 36 47 39 59</h1>
+        </div>
+        <div>
+          <a href="https://www.findsmiley.dk/661314" class="link"><h1>Control Report</h1></a>
+          <a href="https://www.pickwick.dk/privathedspolitik/" class="link"><h1>Privacy Policy</h1></a>
+          <a href="https://www.pickwick.dk/cookie-policy/" class="link"><h1>Cookie Policy</h1></a>
+        </div>
+      </div>
+      <div class="social-media">
+        <a href="https://www.facebook.com/PickwickNL"><img class="facebook" src="images/facebook.png" alt="Facebook logo"></a>
+        <a href="https://www.instagram.com/pickwicknl/"><img class="instagram" src="images/instagram.png" alt="Instagram logo"></a>
+        <a href="https://www.youtube.com/user/PickwickNederland"><img class="youtube" src="images/youtube.png" alt="Youtube logo"></a>
+      </div>     
+    </div>
+    <div class="lower-footer">
+      <h4 class="lower-footer-text">©2021 Pickwick.</h4>
+    </div>
+  </footer>
+</body>
+</html>

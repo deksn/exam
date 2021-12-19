@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pickwick Tea</title>
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header class= "header">
+      <div class="logo"><a href="index.html"><img src="images/logo.png" alt="Pickwick logo" class="logo"></a></div>
+      <div class="topnav" id="myTopnav">
+        <a href="contact.html">CONTACT US</a>
+        <a href="about.html">ABOUT PICKWICK</a>
+        <a href="recipes.html">RECIPES</a>
+        <div class="dropdown">
+          <button class="dropbtn"><a href="teas.html">OUR TEAS</a></button>
+          <div class="dropdown-content">
+            <a href="teas.html#GREEN">Green Tea</a>
+            <a href="teas.html#HERBAL">Herbal Tea</a>
+            <a href="teas.html#FRUIT">Fruit Tea</a>
+          </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+    </header>
+    <div class="row">
+        <section class="contact-section-background"></section>
+        <section class="text-box">
+            <h2>This holiday season, surprise your family with a tasty bread recipe!<br> What makes the bread so special is the tea that is used as an ingredient.<br> A real treat for your guests!</h2>
+        </section>
+        <div class="leftcolumn">
+            <img class="teabread-img" src="images/bread.jpg" alt="tea bread">
+        </div>
+        <div class="rightcolumn">
+            <div class="herbal-text">
+                <div class="index-text-header"><h1>TEA BREAD</h1></div>
+                <div class="ingredients-text-header"><p><h2>Ingredients:</h2>
+                    <ol class="ingredients">
+                        <li>175g of currants</li><br>
+                        <li>80g of raisins</li><br>
+                        <li>250ml of strong Pickwick English tea</li><br>
+                        <li>260g of flour</li><br>
+                        <li>50g of candied citrus peel</li><br>
+                        <li>1 egg</li><br>
+                        <li>120g of brown sugar</li><br>
+                        <li>½ tsp biscuit spices</li><br>
+                        <li>15g baking powder</li><br>
+                        <li>Butter for greasing</li><br>
+                    </ol></p>
+                     <div class="recipe">
+                     <p>1. Boil 250 ml of strong Pickwick English tea.<br>
+                        2. Place the currants and raisins in a bowl and pour the tea over them. Soak overnight.<br>
+                        3. Preheat the oven to 150 degrees and grease a 900g baking pan with butter.<br>
+                        4. Mix flour, sugar, spices, candied citrus zest, baking powder and egg in a bowl.<br>
+                        5. Drain the raisins and currants and add them to the batter.<br>
+                        6. Spoon the entire mixture into the bread pan.<br>
+                        7. Bake for 1h30min in the lower part of the oven. Check after 1 hour and cover with foil if it starts getting too dark.<br>
+                        8. Serve the bread with butter and a hot cup of tea.<br>
+                        </p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!-- ------------------------------footer----------------------- -->
+  <footer class="footer">
+    <div class="Contact-us">
+      <img class="footer-logo" src="images/logo.png" alt="Pickwick logo">
+      <div class="Contact-us-text" id="Contact-us">
+        <div>
+          <h1>Jacobs Douwe Egberts DK ApS</h1>
+          <h1>Tel. customer service 80 88 35 21</h1>
+          <h1> CVR 36 47 39 59</h1>
+        </div>
+        <div>
+          <a href="https://www.findsmiley.dk/661314" class="link"><h1>Control Report</h1></a>
+          <a href="https://www.pickwick.dk/privathedspolitik/" class="link"><h1>Privacy Policy</h1></a>
+          <a href="https://www.pickwick.dk/cookie-policy/" class="link"><h1>Cookie Policy</h1></a>
+        </div>
+      </div>
+      <div class="social-media">
+        <a href="https://www.facebook.com/PickwickNL"><img class="facebook" src="images/facebook.png" alt="Facebook logo"></a>
+        <a href="https://www.instagram.com/pickwicknl/"><img class="instagram" src="images/instagram.png" alt="Instagram logo"></a>
+        <a href="https://www.youtube.com/user/PickwickNederland"><img class="youtube" src="images/youtube.png" alt="Youtube logo"></a>
+      </div>     
+    </div>
+    <div class="lower-footer">
+      <h4 class="lower-footer-text">©2021 Pickwick.</h4>
+    </div>
+  </footer>
+</body>
+</html>

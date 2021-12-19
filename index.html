@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pickwick Tea</title>
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header class= "header">
+      <div class="logo"><a href="index.html"><img src="images/logo.png" alt="Pickwick logo" class="logo"></a></div>
+      <div class="topnav" id="myTopnav">
+        <a href="contact.html">CONTACT US</a>
+        <a href="about.html">ABOUT PICKWICK</a>
+        <a href="recipes.html">RECIPES</a>
+        <div class="dropdown">
+          <button class="dropbtn"><a href="teas.html">OUR TEAS</a></button>
+          <div class="dropdown-content">
+            <a href="teas.html#GREEN">Green Tea</a>
+            <a href="teas.html#HERBAL">Herbal Tea</a>
+            <a href="teas.html#FRUIT">Fruit Tea</a>
+          </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+    </header>
+    <div class="row">
+      <div class="index-section-background"></div>
+      <section class="text-box">
+      <h2>Rituals, no matter how banal it sounds, provide joy and security.<br>
+        So sit down for a minute, take a break, say something nice<br>
+        to someone nearby and warm up with a cup of Pickwick tea.</h2>
+      </section>
+      <section class="herbal-super">
+        <div class="herbal">
+          <div class="leftcolumn">
+            <img class="herbal-super-img" src="images/super-blends.jpg" alt="Herbal detox tea">
+          </div>
+          <div class="rightcolumn">
+            <div class="herbal-text">
+              <div class="index-text-header"><h1>HERBAL SUPER BLENDS</h1></div>
+            <div class="herbal-text-para"><p>Our functional blends consist of carefully<br> selected, combined and dried herbs, which<br> help alleviate symptoms of colds, coughs or<br> digestive disorders. All this - using only<br> natural ingredients and combining different <br>mixtures of herbs.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class= "box"></div> 
+    <section class="herbal-super">
+      <div class="herbal">
+        <div class="leftcolumn">
+          <img class="herbal-super-img" src="images/berry.jpg" alt="Berry dreams tea">
+        </div>
+        <div class="rightcolumn">
+          <div class="herbal-text">
+            <div class="index-text-header"><h1>BERRY DREAMS</h1></div>
+            <div class="herbal-text-para"><p>Summer flavored tea, made from natural<br> ingredients and real berries.  Enjoy on a cool<br> summer evening under the stars.</p></div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <div class= "box"></div> 
+    <section class="herbal-super">
+      <div class="herbal">
+        <div class="leftcolumn">
+          <img class="herbal-super-img" src="images/bright.jpg" alt="Bright blends tea">
+        </div>
+        <div class="rightcolumn">
+          <div class="herbal-text">
+            <div class="index-text-header"><h1>HERBAL<br>SUPER BLENDS</h1></div>
+            <div class="herbal-text-para"><p>Relaxing white tea made from the youngest <br> tea leaves with a soft taste. Enjoy your daily<br> dose of me-time in a cup any time of the day.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!--------------------------------footer------------------------->
+  <footer class="footer">
+    <div class="Contact-us">
+      <img class="footer-logo" src="images/logo.png" alt="Pickwick logo">
+      <div class="Contact-us-text" id="Contact-us">
+        <div>
+          <h1>Jacobs Douwe Egberts DK ApS</h1>
+          <h1>Tel. customer service 80 88 35 21</h1>
+          <h1> CVR 36 47 39 59</h1>
+        </div>
+        <div>
+          <a href="https://www.findsmiley.dk/661314" class="link"><h1>Control Report</h1></a>
+          <a href="https://www.pickwick.dk/privathedspolitik/" class="link"><h1>Privacy Policy</h1></a>
+          <a href="https://www.pickwick.dk/cookie-policy/" class="link"><h1>Cookie Policy</h1></a>
+        </div>
+      </div>
+      <div class="social-media">
+        <a href="https://www.facebook.com/PickwickNL"><img class="facebook" src="images/facebook.png" alt="Facebook logo"></a>
+        <a href="https://www.instagram.com/pickwicknl/"><img class="instagram" src="images/instagram.png" alt="Instagram logo"></a>
+        <a href="https://www.youtube.com/user/PickwickNederland"><img class="youtube" src="images/youtube.png" alt="Youtube logo"></a>
+      </div>     
+    </div>
+    <div class="lower-footer">
+      <h4 class="lower-footer-text">©2021 Pickwick.</h4>
+    </div>
+  </footer>
+</body>
+</html>

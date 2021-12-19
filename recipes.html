@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pickwick Tea</title>
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header class= "header">
+      <div class="logo"><a href="index.html"><img src="images/logo.png" alt="Pickwick logo" class="logo"></a></div>
+      <div class="topnav" id="myTopnav">
+        <a href="contact.html">CONTACT US</a>
+        <a href="about.html">ABOUT PICKWICK</a>
+        <a href="recipes.html">RECIPES</a>
+        <div class="dropdown">
+          <button class="dropbtn"><a href="teas.html">OUR TEAS</a></button>
+          <div class="dropdown-content">
+            <a href="teas.html#GREEN">Green Tea</a>
+            <a href="teas.html#HERBAL">Herbal Tea</a>
+            <a href="teas.html#FRUIT">Fruit Tea</a>
+          </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+    </header>
+    <div class="row">
+      <section class="recipes-section-background"></section>
+      <section class="text-box">
+      <h2>Pickwick has developed various tea recipes, so that you can put something delicious <br> on the table for every occasion. Are you looking for a tasty brunch recipe? Try the<br> tea bread. There are also delicious non-alcoholic drinks.</h2>
+    </section>
+        <div class= "gallery-row1">
+          <div class="gallery1">
+              <a target="teabread.html" href="teabread.html">
+              <img class="gallery1" src="images/teabread.jpg" alt="Tea Bread"></a>
+              <div class="desc">Tea Bread</div>
+            </div>
+      </div>
+    <div class= "gallery-row2">
+            <div class="gallery">
+                <a target="teabread.html" href="teabread.html">
+                <img src="images/mocktail.jpg" alt="Spicy Chai Mocktail" width="200" height="200"></a>
+                <div class="desc">Spicy Chai Mocktail</div>
+            </div>
+            <div class="gallery">
+                <a target="teabread.html" href="teabread.html">
+                <img src="images/blondies.jpg" alt="Spiced Blondies" width="200" height="200"></a>
+                <div class="desc">Spiced Blondies</div>
+            </div>
+    </div>
+        <div class= "gallery-row3">
+            <div class="gallery">
+                <a target="teabread.html" href="teabread.html">
+                <img src="images/icetea.jpg" alt="Berry Iced Tea" width="200" height="200"></a>
+                <div class="desc">Berry Iced Tea</div>
+            </div>
+            <div class="gallery">
+                <a target="teabread.html" href="teabread.html">
+                <img src="images/tiramisu.jpg" alt="Red fruit Tiramisu" width="200" height="200"></a>
+                <div class="desc">Red fruit Tiramisu</div>
+            </div>
+        </div>   
+    </div>   
+  <!-- ------------------------------footer----------------------- -->
+  <footer class="footer">
+    <div class="Contact-us">
+      <img class="footer-logo" src="images/logo.png" alt="Pickwick logo">
+      <div class="Contact-us-text" id="Contact-us">
+        <div>
+          <h1>Jacobs Douwe Egberts DK ApS</h1>
+          <h1>Tel. customer service 80 88 35 21</h1>
+          <h1> CVR 36 47 39 59</h1>
+        </div>
+        <div>
+          <a href="https://www.findsmiley.dk/661314" class="link"><h1>Control Report</h1></a>
+          <a href="https://www.pickwick.dk/privathedspolitik/" class="link"><h1>Privacy Policy</h1></a>
+          <a href="https://www.pickwick.dk/cookie-policy/" class="link"><h1>Cookie Policy</h1></a>
+        </div>
+      </div>
+      <div class="social-media">
+        <a href="https://www.facebook.com/PickwickNL"><img class="facebook" src="images/facebook.png" alt="Facebook logo"></a>
+        <a href="https://www.instagram.com/pickwicknl/"><img class="instagram" src="images/instagram.png" alt="Instagram logo"></a>
+        <a href="https://www.youtube.com/user/PickwickNederland"><img class="youtube" src="images/youtube.png" alt="Youtube logo"></a>
+      </div>     
+    </div>
+    <div class="lower-footer">
+      <h4 class="lower-footer-text">©2021 Pickwick.</h4>
+    </div>
+  </footer>
+</body>
+</html>
